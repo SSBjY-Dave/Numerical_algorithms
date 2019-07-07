@@ -3,4 +3,8 @@ project(numerical_algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(numerical_algorithms main.cpp)
+file(COPY resources DESTINATION ${CMAKE_BINARY_DIR})
+
+include_directories(.)
+
+add_executable(numerical_algorithms main.cpp dependency.h lib/cli/menu/menu.h lib/cli/menu/menu.cpp paths.h lib/utility.h lib/utility.cpp)
