@@ -1,0 +1,65 @@
+{
+  "menu":[
+    {
+      "type":"menu_title",
+      "value":"Linear equations solution methods"
+    },
+    {
+      "type":"menu_link",
+      "value":"Direct solution methods",
+      "sub_item": [
+        {
+          "type":"menu_item",
+          "command":0,
+          "value":"Gaussian elimination"
+        },
+        {
+          "type":"menu_item",
+          "command":1,
+          "value":"Progonka method"
+        },
+        {
+          "type":"menu_item",
+          "command":2,
+          "value":"LU decomposition"
+        },
+        {
+          "type":"menu_item",
+          "command":3,
+          "value":"Incomplete LU decomposition"
+        },
+        {
+          "type":"menu_item",
+          "command":4,
+          "value":"QR decomposition"
+        }
+      ]
+    },
+    {
+      "type":"menu_link",
+      "value":"Iteration methods",
+      "sub_item": [
+        {
+          "type":"menu_item",
+          "command":5,
+          "value":"Jacobi iteration"
+        },
+        {
+          "type":"menu_item",
+          "command":6,
+          "value":"Gauss-Seidel iteration"
+        },
+        {
+          "type":"menu_item",
+          "command":7,
+          "value":"Richardson iteration"
+        },
+        {
+          "type":"menu_item",
+          "command":8,
+          "value":"Incomplete LU decomposition algorthm"
+        }
+      ]
+    }
+  ]
+}
